@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <style>
+      div {
+        margin: 0;
+      }
+      body {
+        margin: 0;
+      }
+      .sections {
+        margin: 0;
+        width: 33%;
+        float: left;
+        height: 100%;
+        
+      }
+      .sections:hover{
+          margin: 0;
+        width: 33%;
+        float: left;
+        height: 100%;
+        
+      }
+      .header {
+        margin: 0;
+        border-color: red;
+        border-style: solid;
+        background-color: black;
+        color: white;
+        transition-duration: 2s;
+      }
+      .header:hover{
+        margin: 0;
+        border-color: red;
+        border-style: solid;
+        background-color: white;
+        color: black;
+      }
+      .button{
+          width: 70%;
+          height: 100px;
+          background-color: white;
+          transition-duration: 2s;
+          border-radius: 10%;
+          margin-top: 10px;
+          border: ;
+      }
+      .button:hover{
+          width: 70%;
+          height: 100px;
+          background-color: red;
+      }
+      .score{font-size: 100px;}
+      .scores{
+        font-size: 100px;
+      }
+    </style>
+  </head>
+  <center>
+    <body>
+      <div class="sections" style="background-color: blue;">
+        <div class="header">
+          <h1>PLAYER ONE</h1>
+        </div>
+        <div>
+            <h1 class="score">Score:</h1>
+            <br>
+            <br>
+            <h1 class="scores" id="humanScore">0</h1>
+        </div>
+        <div></div>
+      </div>
+      <div class="sections" style="background-color: black;">
+        <div class="header">
+          <h1>PLAYER OPTIONS</h1>
+        </div>
+        
+
+        <button id="paper" class="button" style="margin-top: 150px;">
+            <img style="width: 50px; height: 50px;" src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Paper-icon.png" alt="">PAPER
+        </button class="button"><br />
+            
+        <button id="scissors" class="button">
+        <img style="width: 50px; height: 50px;"
+            src="https://maxcdn.icons8.com/Share/icon/Healthcare/scissors1600.png"
+            alt="">SCISSORS
+        </button
+
+        ><br />
+        
+        <button id="rock" class="button">
+        <img style="width: 50px; height: 50px;" src="https://cdn3.iconfinder.com/data/icons/rocks-stones-and-crystals/100/03-512.png" alt=""> ROCK
+    
+    
+    </button>
+      </div>
+      <div class="sections" style="background-color: red;">
+        <div class="header" ;>
+          <h1>COMPUTER</h1>
+        </div>
+        <div>
+            <h1 class="score">Score:</h1>
+            <br>
+            <br>
+            <h1 class="scores" id="compScore">0</h1>
+        </div>
+      </div>
+    </body>
+  </center>
+</html>
